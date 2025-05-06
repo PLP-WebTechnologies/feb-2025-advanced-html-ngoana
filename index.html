@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="stylesheet" href="#">
+  <script src="#"></script>
+  <title>HTML Sign Up</title>
+</head>
+<body>
+  <header>
+    <div><figure>
+      <a href="index.html"><img src="https://images.pexels.com/photos/953864/pexels-photo-953864.jpeg" alt="shopping-logo" style="width:300px;"></a>
+      <figcaption><p>(wesite-logo)</p></figcaption>
+    </figure></div>   
+    <h1>Welcom HTML online shopping center.</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact-us</a></li>
+    </ul>
+  </nav> <hr>
+  </header>
+  <main>
+    <div>
+      <section><h2>REGISTER YOURSELF</h2></section>
+      <section>
+          <form action="#" method="post">
+            <!-- Personal Information -->
+            <fieldset>
+              <legend>Personal info:</legend>
+              <label for="name">Firstname:</label> <br>
+              <input type="text" name="firstname" id="name" placeholder="John" required minlength="1" maxlength="30"><br>
+              <label for="name">Lastname:</label> <br>
+              <input type="text" name="lastname" id="name" placeholder="Doe" required minlength="1" maxlength="30"><br>
+              <label for="email">Email:</label> <br>
+              <input type="email" name="email" id="email" required placeholder="example@123.com"> <br>
+              <label for="password">Set password:</label> <br>
+              <input type="password" name="password" id="password" required> <br>
+              <label for="C-password">Confirm password:</label> <br>
+              <input type="password" name="C-password" id="C-password" required> <br>
+              <label for="date_of_birth">Date of birth:</label> <br>
+              <input type="date" name="date_of_birth" id="date_of_birth" max="2025-05-06" min="1980-01-01" required > <br>
+              <label for="id_photo">Upload your ID photo:</label> <br>
+              <input type="file" name="id_photo" id="id_photo" required>
+            </fieldset>
+            <!-- Demographic Information -->
+            <fieldset>
+              <legend>Demographic Details:</legend>
+              <label for="race">Race:</label>
+              <select name="race" id="race">
+                <option value="African">African</option>
+                <option value="White">White</option>
+                <option value="Asian">Asian</option>
+                <option value="European">European</option>
+              </select>
+              <p>Eye color?</p>
+              <input type="radio" name="eye_color" id="amber" value="amber">
+              <label for="amber">Amber</label>
+              <input type="radio" name="eye_color" id="blue" value="blue">
+              <label for="blue">Blue</label>
+              <input type="radio" name="eye_color" id="brown" value="brown">
+              <label for="brown">Brown</label>
+              <input type="radio" name="eye_color" id="gray" value="gray">
+              <label for="gray">Gray</label>
+              <input type="radio" name="eye_color" id="green" value="green">
+              <label for="green">Green</label>
+              <input type="radio" name="eye_color" id="hazel" value="hazel">
+              <label for="hazel">Hazel</label>
+              <p>Do you have any type of transport?</p>
+              <input type="checkbox" name="bike" id="bike" value="bike">
+              <label for="bike">Bike</label> <br>
+              <input type="checkbox" name="car" id="car" value="car">
+              <label for="car">Car</label> <br>
+              <input type="checkbox" name="boat" id="boat" value="boat">
+              <label for="boat">Boat</label> <br>
+              <input type="checkbox" name="bus" id="bus" value="bus">
+              <label for="bus">Mini bus</label> <br>
+            <!-- Comment field -->
+            </fieldset>
+            <label for="comment">Leave us a comment:</label> <br>
+              <textarea name="comment" id="comment" cols="30" rows="4" placeholder="Write here..."></textarea>
+              <br>
+            <!-- Terms and condtions -->
+              <details>
+                <summary>Read Terms and Conditions</summary>
+                <ol type="i">
+                  <li>Only 18 years or older are allowed to register.</li>
+                  <li>All personal data provided must be accurate.</li>
+                  <li>Accounts that violate our policies will be susbpended.</li>
+                </ol>
+              </details>
+            <!-- Accept terms -->
+              <label>
+                <input type="checkbox" name="t&c" required>
+                I accept the terms and conditions
+              </label>
+            <hr>
+            <!-- Buttons -->
+            <button type="reset">Reset</button>
+            <button type="submit">Sign up</button>
+          </form>
+        </section>
+    </div>
+  </main>
+  <hr>
+  <footer style="padding: 20px; text-align: center;">
+
+    <div>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#">About</a></li>
+        <li><a href="mailto:renang@gmail.com">Contact us</a></li>
+        <li><a href="#">Home Page</a></li>
+        <li><a href="#">Subscribe</a></li>
+      </ul>
+    </div>
+    <div> 
+      <p>Like us:</p>
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram-svgrepo-com.svg" alt="instagram icon" style="width: 30px;"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twitter-svgrepo-com.svg" alt="twitter icon" style="width: 30px;"></a>
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook-svgrepo-com.svg" alt="facebook icon" style="width: 30px;"></a>
+    </div>
+    <p>&copy; 2025 Renang. All rights reserved.</p>
+  </footer> 
+</body>
+</html>
